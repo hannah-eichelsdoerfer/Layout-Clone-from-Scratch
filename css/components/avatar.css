@@ -1,0 +1,5 @@
+.avatar-small {
+  border-radius: 50%;
+  width: 25px;
+  display: inline-block;
+}

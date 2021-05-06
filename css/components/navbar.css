@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  line-height: 3em;
+  border-bottom: 1px solid rgb(230, 226, 225);
+  box-shadow: 0 8px 6px -10px rgb(187, 175, 172);
+  padding: 0 30px;
+  color: rgb(192, 165, 158);
+  flex-wrap: wrap;
+}
+
+nav .right i {
+  display: none;
+}
+
+@media (min-width: 560px) {
+  nav .right i {
+    padding: 0 10px;
+    display: inline-block;
+  }
+}
