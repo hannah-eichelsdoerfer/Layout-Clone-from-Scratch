@@ -100,11 +100,13 @@ footer {
   
   aside {
     grid-area: aside;
-    padding-top: 60%;
     border-right: 1px solid rgb(230, 226, 225);
     font-size: 14px;
     color: inherit;
     background-color: inherit;
+    height: 100vh;
+    position: sticky;
+    top: 0;
   }
   
   aside .active {
@@ -117,6 +119,10 @@ footer {
   aside a {
     display: block;
     padding: 10px 15px;
+  }
+
+  aside a:first-child {
+    margin-top: 90;
   }
 }
 
